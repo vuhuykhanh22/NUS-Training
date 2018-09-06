@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  overflow: auto;
+  height: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.left_image {
+  padding-left: 0;
+}
+.left_image .left {
+  background-color: black;
+  height: 100vh;
+  background-image: url("../images/3.jpg");
+  background-size: cover;
+}
+
+.navigation {
+  background-color: transparent !important;
+  border: none;
+  border-bottom: 1px solid gray;
+  border-radius: 0;
+  padding-top: 25px;
+}
+.navigation .nav-left li {
+  padding: 0 15px 15px 15px;
+}
+.navigation .nav-left a {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #b3b7b5 !important;
+  font-weight: 500;
+}
+.navigation .nav-right .btn_book {
+  display: block;
+  background-color: #e7f0ed;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  padding: 10px 30px;
+  color: #b0cdc3;
+  text-transform: uppercase;
+}
+.navigation .nav-right .btn_book:hover {
+  background-color: #e7f0ed;
+}
+
+.newyork .country {
+  padding: 80px 0 0 0;
+}
+.newyork .country h1 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #86b3a4;
+  font-size: 60px;
+}
+.newyork .country h1.number {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 20px;
+  border-bottom: 5px solid #86b3a4;
+}
+.newyork .country h1.best {
+  font-weight: bold;
+}
+.newyork .country h1.healthy, .newyork .country h1.breakfast {
+  font-weight: 300;
+}
+.newyork .menu p {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #d5d7d6;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300;
+}
+.newyork .showme .btn_showme {
+  margin: 30px auto;
+  color: white;
+  display: block;
+  padding-top: 35px;
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-color: #86b3a4;
+  border: 2px solid gray;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}
